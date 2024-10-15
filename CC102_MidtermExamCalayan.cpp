@@ -36,16 +36,14 @@ int main() {
 	float coffeeCostPHP = coffeePriceUSD * coffeeQty;
 	float milkCostPHP = milkPriceUSD * milkQty;
 	float totalCostPHP = sugarCostPHP + riceCostPHP + sardinesCostPHP + coffeeCostPHP + milkCostPHP;
-
-	cout << fixed << setprecision(2); 
-	cout << "\n--- Purchase Details ---" << endl;
-	cout << "Item: Sugar, Quantity: " << sugarQty << ", Total Cost: PHP " << sugarCostPHP << endl;
-	cout << "Item: Rice, Quantity: " << riceQty << ", Total Cost: PHP " << riceCostPHP << endl;
-	cout << "Item: Sardines, Quantity: " << sardinesQty << ", Total Cost: PHP " << sardinesCostPHP << endl;
-	cout << "Item: Coffee, Quantity: " << coffeeQty << ", Total Cost: PHP " << coffeeCostPHP << endl;
-	cout << "Item: Milk, Quantity: " << milkQty << ", Total Cost: PHP " << milkCostPHP << endl;
-
 	
+	cout << "\n--- Purchase Details ---" << endl;
+	cout << "Item: Sugar, Quantity: " << sugarQty << ", Total Cost: Php " << sugarCostPHP << endl;
+	cout << "Item: Rice, Quantity: " << riceQty << ", Total Cost: Php " << riceCostPHP << endl;
+	cout << "Item: Sardines, Quantity: " << sardinesQty << ", Total Cost: Php " << sardinesCostPHP << endl;
+	cout << "Item: Coffee, Quantity: " << coffeeQty << ", Total Cost: Php " << coffeeCostPHP << endl;
+	cout << "Item: Milk, Quantity: " << milkQty << ", Total Cost: Php " << milkCostPHP << endl;
+	cout << "Total amount to be paid in Php: Php " << totalCostPHP << endl;
 
-    return 0;
+	return 0;
 }
